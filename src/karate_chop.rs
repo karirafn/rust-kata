@@ -1,4 +1,6 @@
 // http://codekata.com/kata/kata02-karate-chop/
+
+#[allow(dead_code)]
 pub fn chop(value: i32, numbers: Vec<i32>) -> i32 {
     if numbers.is_empty() {
         return -1;
